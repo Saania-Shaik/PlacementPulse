@@ -1,25 +1,30 @@
-# 📊 PlacementPulse
+# PlacementPulse
 
-A high-performance Student Placement Analytics Dashboard built with React to visualize and analyze over **100,000 student placement records**. The dashboard provides interactive charts, KPI cards, advanced filtering, and searchable tables to help users explore placement trends, salary distribution, academic performance, and skill analytics.
-
----
-
-## 🚀 Features
-
-- 📈 Interactive data visualizations
-- 📊 KPI cards for key placement metrics
-- 🔍 Search and filter student records
-- 📑 Sortable and paginated data table
-- 📱 Fully responsive design
-- 🌙 Light/Dark mode
-- ⚡ Optimized rendering for large datasets
-- 📉 Dynamic charts that update based on filters
+PlacementPulse is a high-performance Student Placement Analytics Dashboard built with React to visualize and analyze over **100,000 student placement records**. The dashboard provides interactive charts, KPI cards, advanced filtering, and searchable tables to help users explore placement trends, salary distribution, academic performance, and skill analytics while maintaining a smooth user experience.
 
 ---
 
-## 📂 Dataset
+## Project Overview
 
-This project uses the **Student Placement Prediction Dataset 2026** containing over **100,000 student records**.
+The goal of this project is to build a modern, responsive, and performance-focused analytics dashboard capable of efficiently handling large datasets. It enables users to explore placement insights through interactive visualizations and intuitive filtering options.
+
+---
+
+## Features
+
+- Interactive charts and visualizations
+- KPI cards for placement statistics
+- Dynamic filtering and search
+- Sortable and paginated student table
+- Responsive design for desktop and mobile
+- Light and Dark mode
+- Fast rendering with optimized React components
+
+---
+
+## Dataset
+
+This project uses the **Student Placement Prediction Dataset 2026**, which contains over **100,000 student records**.
 
 The dataset includes information such as:
 
@@ -42,7 +47,7 @@ The dataset includes information such as:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 - React
@@ -52,23 +57,20 @@ The dataset includes information such as:
 ### Styling
 - Tailwind CSS
 
-### Charts
+### Data Visualization
 - Recharts
 
-### Tables
+### Data Table
 - TanStack Table
-
-### Icons
-- Lucide React
 
 ### Deployment
 - Vercel
 
 ---
 
-## ⚡ Performance Optimizations
+## Performance Optimizations
 
-To efficiently handle large datasets, the application uses:
+The dashboard is designed to efficiently handle large datasets using:
 
 - React.memo
 - useMemo
@@ -81,7 +83,7 @@ To efficiently handle large datasets, the application uses:
 
 ---
 
-## 📊 Dashboard Modules
+## Dashboard Modules
 
 - Dashboard Overview
 - Placement Analytics
@@ -93,43 +95,44 @@ To efficiently handle large datasets, the application uses:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-```
+```text
 src/
 │
 ├── components/
 ├── pages/
 ├── hooks/
-├── data/
 ├── utils/
+├── data/
 ├── assets/
-└── App.jsx
+├── App.jsx
+└── main.jsx
 ```
 
 ---
 
-## ▶️ Getting Started
+## Getting Started
 
-Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/PlacementPulse.git
+git clone https://github.com/Saania-Shaik/PlacementPulse.git
 ```
 
-Navigate to the project
+Navigate to the project:
 
 ```bash
 cd PlacementPulse
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Start the development server
+Start the development server:
 
 ```bash
 npm run dev
@@ -137,34 +140,28 @@ npm run dev
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
-- Build a modern analytics dashboard
-- Handle large datasets efficiently
-- Create a clean and intuitive UI
-- Demonstrate React performance optimization techniques
-- Deliver a responsive and scalable frontend application
-
----
-
-## 📸 Screenshots
-
-Screenshots will be added after completing the project.
+- Build a scalable React dashboard
+- Visualize large-scale placement data
+- Maintain smooth performance with large datasets
+- Deliver a clean and responsive user experience
+- Apply frontend performance optimization techniques
 
 ---
 
-## 🔮 Future Improvements
+## Future Enhancements
 
-- Advanced filtering
-- Export to CSV/PDF
-- More analytics modules
+- Advanced filters
+- Export reports (CSV/PDF)
 - Virtualized tables
 - Real-time data updates
-- AI-powered placement insights
+- Placement trend forecasting
+- AI-powered insights
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Saania Shaik**
 
